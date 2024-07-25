@@ -1,0 +1,60 @@
+Here are several common terminology used in machine learning. 
+
+Coefficient:
+
+The coefficient represents the change in the dependent variable for a one-unit change 
+in the corresponding independent variable, while holding all other variables constant.
+In simple linear regression with one independent variable, 
+the coefficient is the slope of the regression line. 
+It tells us how the dependent variable changes on average 
+for each unit increase in the independent variable.
+
+In multiple linear regression with multiple independent variables, 
+each coefficient represents the change in the dependent variable associated with a one-unit change
+in the corresponding independent variable, 
+while holding all other variables constant.
+The coefficient can be positive, indicating a positive relationship 
+where an increase in the independent variable leads to an increase in the dependent variable, 
+or negative, indicating a negative relationship 
+where an increase in the independent variable leads to a decrease in the dependent variable.
+For example:
+If we observe a negative relationship between temperature and electricity consumption, 
+it means that as the temperature increases, the electricity consumption tends to decrease. 
+This implies that colder temperatures are associated with higher electricity consumption, 
+while warmer temperatures are associated with lower electricity consumption.
+
+The intercept: 
+also known as the constant term, 
+is the value of the dependent variable when all independent variables are zero.
+In simple linear regression, 
+the intercept is the point where the regression line intersects the y-axis.
+For example, 
+if the coefficient is $100, it means that, 
+on average, each additional square foot increases the house price by $100, 
+assuming all other factors remain constant.
+
+
+Log Loss Calculation:
+Log loss measures the dissimilarity between the predicted probabilities and the actual class labels 
+by taking the logarithm of the predicted probabilities.
+The formula for log loss is: log_loss = -(y * log(p) + (1 - y) * log(1 - p)), 
+where y is the actual class label (0 or 1) 
+and 
+p is the predicted probability.
+The log loss is calculated for each instance in the dataset, and 
+the average or sum of these losses is typically used as the overall log loss for the model.
+
+Log loss aims to penalize incorrect predictions more severely than correct predictions, and 
+it rewards models that assign high probabilities to the correct class.
+Lower log loss values indicate better model performance, with a perfect model achieving a log loss of 0.
+Higher log loss values indicate poorer model performance, and 
+log loss can increase indefinitely as the predicted probabilities move further away from the true class labels.
+Log loss is widely used for model evaluation, model selection, and parameter tuning 
+in binary classification tasks. 
+It provides a measure of how well the predicted probabilities align with the true class labels and 
+can help compare different models or variations of a model to identify the best-performing one.
+
+Recall focuses on the coverage of the positive instances, indicating 
+how effectively the model captures all positive instances.
+Precision focuses on the quality of the positive predictions, indicating 
+how likely a positive prediction is to be correct.

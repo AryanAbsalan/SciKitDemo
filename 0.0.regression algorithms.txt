@@ -1,0 +1,81 @@
+There are several common regression algorithms used in machine learning. 
+Here are some of the popular ones:
+
+1.Linear Regression: 
+Linear regression is a simple and widely used regression algorithm that models the relationship 
+between the input features and the target variable using a linear equation. 
+It assumes a linear relationship between the features and the target variable.
+
+2.Polynomial Regression: 
+Polynomial regression extends linear regression by adding polynomial terms to the equation. 
+It can capture non-linear relationships between the features and the target variable.
+
+3.Decision Tree Regression: 
+Decision tree regression builds a decision tree-based model to predict the target variable. 
+It partitions the feature space into regions and assigns a constant value to each region.
+
+4.Random Forest Regression: 
+Random forest regression is an ensemble method that combines multiple decision trees to make predictions. 
+It averages the predictions of individual decision trees 
+to obtain the final result, providing better generalization and reducing overfitting.
+
+5.Support Vector Regression (SVR): 
+SVR is a regression version of support vector machines (SVM). 
+It uses a kernel function to transform the input features into a higher-dimensional space 
+and finds a hyperplane that maximizes the margin while minimizing the error.
+
+6.Gradient Boosting Regression: 
+Gradient boosting regression is another ensemble method that combines multiple weak regression models 
+to create a strong predictive model. 
+It builds the model iteratively by minimizing a loss function using gradient descent.
+
+7.Neural Network Regression: 
+Neural network regression uses artificial neural networks to model 
+the relationship between the input features and the target variable.
+It can capture complex non-linear relationships but may require more data and computational resources.
+
+Here are some real examples of how regression algorithms are used:
+
+Real Estate: 
+Regression models can be used to predict housing prices based on 
+features such as location, size, number of rooms, and other relevant factors. 
+This helps real estate agents, buyers, and sellers make informed decisions.
+
+Finance: 
+Regression algorithms are used to predict stock prices, market trends, and investment returns. 
+Financial institutions use regression models to analyze risk, optimize portfolios, 
+and make investment decisions.
+
+Marketing and Sales: 
+Regression models are employed to forecast sales based on
+advertising expenditure, customer demographics, pricing, and other factors. 
+This helps businesses plan marketing campaigns, optimize pricing strategies, and estimate demand.
+
+Healthcare: 
+Regression algorithms are used in medical research to predict patient outcomes, such as
+disease progression, treatment response, or mortality rates. 
+Regression models can also be utilized to estimate the impact of various factors on health outcomes.
+
+Insurance: 
+Regression models are employed in the insurance industry for risk assessment and premium calculation. 
+They help estimate the likelihood of an event occurring, such as 
+car accidents or health issues, based on relevant factors.
+
+Manufacturing: 
+Regression algorithms can be used to predict 
+product quality, identify defects, and optimize production processes. 
+By analyzing various factors, such as temperature, pressure, 
+or ingredient proportions, regression models help improve manufacturing efficiency.
+
+Energy Consumption: 
+Regression models are used to predict and analyze energy consumption patterns. 
+They help energy providers forecast demand, optimize energy distribution, 
+and implement energy-saving measures.
+
+
+The main difference between Regression and Classification algorithms 
+Regression algorithms are used to predict the continuous values such as price, salary, age, etc. 
+Classification algorithms are used to predict/Classify the discrete values such as Male or Female, True or False, Spam or Not Spam, etc.
+
+The regression Algorithm can be further divided into Linear and Non-linear Regression.	
+The Classification algorithms can be divided into Binary Classifier and Multi-class Classifier.
